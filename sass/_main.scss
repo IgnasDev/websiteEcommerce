@@ -1,0 +1,75 @@
+#page {
+  background: $bg-color-lg;
+  .wrapper {
+    background: $bg-color-w;
+  }
+}
+
+.hero {
+  .navbar-top {
+    background: $green;
+    &__contact {
+      color: $fn-white;
+      i {
+        margin: 0 1rem 0 2rem;
+      }
+    }
+    &__nav {
+      li {
+        margin-right: 3.5rem;
+        a {
+          color: $fn-white;
+          font-weight: 400;
+        }
+        .fas {color: darken($fn-white, 65%);}
+        .btn-login {
+          background: transparent;
+          border: none;
+          margin-left: .3rem;
+          color: $fn-white;
+        }
+      }
+    }
+  }
+  .navbar-bottom {
+    &__left {
+      font-size: 3rem;
+      font-weight: 400;
+      margin-left: 2rem;
+      .cl-green {
+        color: $green;
+        font-weight: 700;
+      }
+    }
+    &__nav {
+      li {
+        margin-right: 3rem;
+        a {
+          font-weight: 500;
+          color: $fn-dark;
+        }
+      }
+    }
+    &__right {
+      margin-right: 3rem;
+    }
+    &__search {
+      position: relative;
+      i {
+        position: absolute;
+        top: 23%;
+        left: 88%;
+      }
+      input {
+        border: 1px solid $fn-dark;
+        padding: .5rem;
+      }
+    }
+  }
+  .content {
+    background: url('../../src/assets/hero-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

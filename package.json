@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-css": "sass --watch sass/index.scss dir/stylesheet/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnasDev/websiteEcommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgnasDev/websiteEcommerce/issues"
+  },
+  "homepage": "https://github.com/IgnasDev/websiteEcommerce#readme"
+}

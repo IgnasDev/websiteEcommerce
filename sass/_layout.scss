@@ -1,0 +1,213 @@
+// GENERAL/RESSET
+
+body,html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+li,ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  width: 100%;
+  height: auto;
+  font-size: 1.6rem;
+  .wrapper {
+    max-width: 124rem;
+    margin: 0 auto;
+    @media only screen and (max-width: 1024px) {
+      .wrapper {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// UTILITY CLASS
+
+.card {
+    text-align: center;
+    min-width: 22%;
+    max-width: 20rem;
+    margin: 1rem 0;
+    span {
+      margin: 3rem 0;
+    }
+
+    h1 {
+      margin: 3rem 0;
+    }
+
+    p {
+      margin: 3rem 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+}
+.touch-card {
+  width: 35rem;
+  h1,h3,p {
+    margin: 1rem;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    textarea {
+      display: block;
+      width: 34rem;
+    }
+  }
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .text-content {
+    margin: 5rem 0;
+  }
+}
+.cards-row {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  input {
+    padding: .5rem;
+    margin: 1rem;
+  }
+  textarea {
+    padding: .5rem;
+    margin: 1rem;
+  }
+}
+.text-content {
+  text-align: center;
+}
+.padding-8 {
+  padding: 8rem 0;
+}
+
+// LAYOUT
+.hero {
+  width: 100%;
+  &__navbar {
+    width: 100%;
+  }
+  .navbar-top {
+    height: 3.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &__left {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  .navbar-bottom {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__content {
+    width: 100%;
+    height: 54rem;
+  }
+  &__row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.collections {
+
+}
+
+.products {
+
+  .products-filter {
+    margin: 3rem 0;
+  }
+}
+
+.sale {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40rem;
+}
+
+.best-sellers {
+
+}
+
+.customers-review {
+  .card-row-review {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img {
+      width: 7rem;
+      height: 7rem;
+      display: block;
+      margin: 1rem;
+    }
+  }
+}
+
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+}
